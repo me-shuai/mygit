@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>捕鱼大战
+			</title>
+		<style type='text/css'>
+			.div1{
+			width:1200px;
+			height:158px;
+			background:url('index_bg.jpg');
+			margin:auto;
+			}
+			.div2{
+			width:1000px;
+			height:158px;
+			background:url('menu_bg.gif');
+			margin:auto;
+			
+			}
+			.div3{
+			width:1200px;
+			height:384px;
+			background:url('index_bg.jpg');
+			margin:auto;
+			}
+			.div4{
+			width:1200px;
+			border:1px solid #FFFF00;
+			margin:auto;
+			}
+			.img1{
+			float:left;
+			}
+			.div5{
+			width:300px;
+			height:50px;
+			float:right;
+			}
+			.div5 a{
+			color:#C66601;
+			text-decoration:none;
+			}
+			.div6{
+			width:700px;
+			height:100px;
+			float:right;}
+			.div6 a{
+			margin-left:25px;
+			line-height:105px;
+			color:#FFFF00;
+			text-decoration:none;
+			}
+			.div7{
+			width:279px;
+			height:384px;
+			background:url('index_down_bg.jpg');
+			text-align:center;
+			float:left;
+			margin-left:100px;
+			}
+			.div8{
+			width:721px;
+			height:384px;
+			background:none;
+			float:left;
+			}
+			.div8 img{
+			width:721px;
+			height:384px;
+			}
+			.div9{
+			background:url('tel_bg.jpg');
+			width:230px;
+			height:160px;
+			text-align:center;
+			margin-top:5px;
+			color:#845930;
+			}
+			.div10{
+			width:550px;
+			height:180px;
+			border:1px solid #AD490B;
+			margin-top:10px;
+			margin-left:10px;
+			}
+			.div11{
+			background:url('game_tit.jpg');
+			width:550px;
+			height:39px;
+			line-height:40px;
+			}
+			.div11 span{
+			color:white;
+			font-size:10px;
+			}
+			.input1{
+			background:url('more.gif');
+			width:57px;
+			height:15px;
+			border:0px;
+			}
+			.form1{
+			float:right;
+			margin-right:10px;
+			}
+			.table1{
+			width:530px;
+			height:130px;
+			border-collapse:collapse;
+			margin:auto;
+			margin-top:5px;
+			}
+			.table1 .td1{
+			text-align:right;
+			background:#552000;
+			}
+			
+			.table1 .td2{
+			background:#421800;
+			text-align:right;
+			}
+			.table1 a{
+			display:block;
+			float:left;
+			text-decoration:none;
+			color:#F38200;
+			}
+			.div12{
+			width:208px;
+			height:210px;
+			border:opx solid black;
+			margin-top:10px;
+			}
+			.div12 div{
+			background:url('fq_t_bg.jpg');
+			width:208px;
+			height:36px;
+			}
+			.div13{
+			line-height:40px;
+			}
+			.div13 span{
+			color:white;
+			font-size:10px;
+			}
+			.table2{
+			width:208px;
+			height:173px;
+			
+			border:0px;
+			}
+			.table2 .td1{
+			background:#552000;
+			text-align:left;
+			border:0px solid black;
+			color:#F38200;
+			}
+			.table2 .td2{
+			background:#421800;
+			text-align:left;
+			border:0px solid black;
+			color:#F38200;
+			}
+			.table2 td a{
+			color:#E97C00;
+			text-decoration:none;}
+		
+			.div15{
+			width:1200px;
+			height:490px;
+			background:url('index_bg.jpg');
+			margin:auto;}
+			.div16{width:230px;
+			height:470px;
+			margin-left:100px;
+			float:left;
+			}
+			.div17{
+			width:560px;
+			height:470px;
+			float:left;
+			}
+			.div18{
+			width:210px;
+			height:470px;
+			background:none;
+			float:left;
+			}
+			.div14{
+			width:230px;
+			height:295px;
+			border:1px solid #AD490B;
+			margin-top:10px;
+			}
+			.div20{width:230px;
+			height:35px;
+			background:url('meili_title.jpg');
+			line-height:30px;
+			}
+			.div20 span{
+			color:white;
+			font-size:10px;
+			
+			}
+			.span1{
+			float:right;
+			}
+			ul{
+			margin: 5px;
+			padding: 5px;
+				}
+			li{
+			height:20px;
+			list-style-type:none;
+			padding-left:15px;
+			text-align:left;
+			color:#FF7A00;
+			font-size:15px;
+			margin-top:5px;
+			}
+			.d2{
+			background:url('pm.gif') no-repeat;
+			}
+			.d3{
+			background:url('pm.gif') no-repeat;
+			background-position:0 -25px;
+			}
+			.d4{
+			background:url('pm.gif') no-repeat;
+			background-position:0 -50px;
+			}
+			.d5{
+			background:url('pm.gif') no-repeat;
+			background-position:0 -75px;
+			}
+			.d6{
+			background:url('pm.gif') no-repeat;
+			background-position:0 -100px;
+			}
+			.d7{
+			background:url('pm.gif') no-repeat;
+			background-position:0 -125px;
+			}
+			.d8{
+			background:url('pm.gif') no-repeat;
+			background-position:0 -150px;
+			}
+			.d9{
+			background:url('pm.gif') no-repeat;
+			background-position:0 -175px;
+			}
+			.d10{
+			background:url('pm.gif') no-repeat;
+			background-position:0 -200px;
+			}
+			.d11{
+			background:url('pm.gif') no-repeat;
+			background-position:0 -225px;
+			}
+			li a{color:#FF7A00;
+			text-decoration:none;}
+
+
+
+			.div21{
+			width:25px;
+			height:300px;
+			background:#411802;
+			}
+		
+			.div21{
+			height:280px;
+			width:550px;
+			border:1px solid #AD490B;
+			margin-left:10px;
+			clear:both;
+			}
+			.div22{
+			background:url('game_tit.jpg');
+			width:100%;
+			height:39px;
+			line-height:40px;
+			}
+			.div22 span{
+			color:white;
+			font-size:10px;
+			}
+			.div23{
+			width:19px;
+			height:239px;
+			border:0px solid black;
+			line-height:310px;
+			float:left;
+			}
+			.div24{
+			width:505px;
+			height:239px;
+			border:0px solid black;
+			float:left;
+			}
+			.div25{
+			width:19px;
+			height:239px;
+			border:0px solid black;
+			line-height:310px;
+			float:right;
+			}
+			.div24 a{
+			display:block;
+			float:left;
+			margin-left:20px;
+			line-height:25px;
+			margin-top:10px;}
+			.div18 .img2{
+			margin-top:100px;}
+			.div26{
+			width:1200px;
+			height:200px;
+			background:url('body_bg.jpg');
+			margin:auto;
+			text-align:center;
+			line-height:30px;
+			}
+			.div26 span{
+			color:#AC814E;
+			font-size:10px;}
+			.div26 a{
+			color:#AC814E;
+			text-decoration:none;
+			font-size:15px;
+			}
+			.table1 span{
+			color:#B25200;
+			}
+		</style>
+	</head>
+
+	<body>
+	
+		<div class='div1'>
+		<div class='div2'>
+			<img  class='img1' src='logo.png'>
+			<div class='div5'>
+			<a href='#'>登录
+			|</a>
+			<a href='#'>注册
+			|</a>
+			<a href='#'>支付
+			|</a>
+			<a href='#'>站点地图
+			</a>
+			</div>
+			<div class='div6'>
+				<a href='#'>首页
+				</a>
+				<a href='#'>新闻公告
+				</a>
+				<a href='#'>游戏下载
+				</a>
+				<a href='#'>会员中心
+				</a>
+				<a href='#'>在线支付
+				</a>
+				<a href='#'>新手指南
+				</a>
+				<a href='#'>客服帮助
+				</a>
+			</div>
+			</div>
+		</div>
+		<div class='div4'>
+		</div>
+		<div class='div3'>
+			<div class='div7'>
+
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<br/>系统：windows	XP/2003/Vista/Win7
+			大小：28.00M
+			
+				<br/>更新时间：2014年4月14日
+			
+				<br/>注册：极速注册仅需45秒
+				<br/>
+				<br/>
+				<a href='#'>
+				<img src='down_an.jpg'>
+				</a>
+				<a href='#'>
+				<img src='sign_an.jpg'>
+				</a>
+				<a href='#'>
+				<img src='Reg_an.jpg'>
+				</a>
+			</div>
+			<div class='div8'>
+				<img src='002.jpg'/>
+			</div>
+			</div>
+		<div class='div15'>
+			<div class='div16'>
+			<div class='div9'>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+			QQ:2889929712
+				<a href='#'>
+				<img src='qq.gif'/>
+				</a>
+			</div>
+			<div class='div14'>
+				<div class='div20'>
+				<span>
+				魅力排行榜
+				</span>
+				</div>
+				
+				<ul>
+			
+			<li class='d2'>
+			<a href='#'>抬头触摸
+			</a>
+				<span class='span1'>
+				0
+				</span>
+			</li>
+			<li class='d3'>
+			<a href='#'>采菊东篱
+			</a>
+				<span class='span1'>
+				0
+				</span>
+			</li >
+			<li class='d4'>
+			<a href='#'>何必执着不该执着的执着
+			</a>
+				<span class='span1'>
+				0
+				</span>
+			</li>
+			<li class='d5'>
+			<a href='#'>新有林夕
+			</a>
+				<span class='span1'>
+				0
+				</span>
+			</li>
+			<li class='d6'>
+				<a href='#'>幸运草
+				</a>
+				<span class='span1'>
+				0
+				</span>
+			</li>
+			<li class='d7'>
+			<a href='#'>快乐人生
+			</a>
+				<span class='span1'>
+				0
+				</span>
+			</li>
+			<li class='d8'>
+			<a href='#'>YES
+			</a>
+				<span class='span1'>
+				0
+				</span>
+			</li>
+			<li class='d9'>
+			<a href='#'>孤单人生
+			</a>
+				<span class='span1'>
+				0
+				</span>
+			</li>
+			<li class='d10'>
+			<a href='#'>余生
+			</a>
+				<span class='span1'>
+				0
+				</span>
+			</li>
+			<li class='d11'>
+			<a href='#'>未见面说再见
+			</a>
+				<span class='span1'>
+				0
+				</span>
+			</li>
+			
+			
+		</ul>
+				
+			</div>
+			
+			
+	</div>
+	<div class='div17'>
+			<div class='div10'>
+				<div class='div11'>
+					<span>新闻公告
+					</span>
+					<form class='form1'>
+					<input  class='input1' type='button'/>
+					</form>
+					
+				</div>
+				<table class='table1'>
+					<tr>
+						<td class='td1'>
+							<a href='#'>
+							[[新闻]]每日一诗
+							</a>
+						<span>2014-05-20
+						</span>
+						</td>
+					</tr>
+					<tr>
+						<td class='td2'>
+							<a href='#'>
+							[[新闻]]AK国际捕鱼平台完毕，继续进行游戏，祝各位玩家游
+							戏愉快！
+							</a>
+							<span>
+							2014-05-20
+							</span>
+						</td>
+					</tr>
+					<tr>
+						<td class='td1'>
+							<a href='#'>
+							[[公告]]平台开放注册，参与游戏公测，获千元礼包
+							</a>
+							<span>
+							2014-05-20
+							</span>
+							</td>
+					</tr>
+						<tr>
+						<td class='td2'>
+							<a href='#'>
+							[[公告]]悟空闹海及李逵劈鱼证书上线
+							</a>
+							<span>
+								2014-05-20
+							</span>
+						</td>
+					</tr>
+				</table>	
+			
+			</div>
+				<div class='div21'>
+					<div class='div22'>
+						<span>
+						热门游戏
+						</span>
+						<form class='form1'>
+							<input  class='input1' type='button'/>
+						</form>
+					</div>	
+						<div class='div23'>
+							<img src='s_01.jpg'/>
+						</div>
+						<div class='div24'>
+							<a href='#'>
+								<img src='game20.gif'/>
+							</a>
+							<a href='#'>
+								<img src='game02.gif'/>
+							</a>
+							<a href='#'>
+								<img src='game08.gif'/>
+							</a>
+							<a href='#'>
+								<img src='game05.gif'/>
+							</a>
+							<a href='#'>
+								<img src='game07.gif'/>
+							</a>
+							<a href='#'>
+								<img src='game10.gif'/>
+							</a>
+							<a href='#'>
+								<img src='game07.gif'/>
+							</a>
+							<a href='#'>
+								<img src='game01.gif'/>
+							</a>
+						</div>
+						<div class='div25'>
+							<img src='s_02.jpg'/>
+							
+						</div>
+					</div>
+			</div>
+		
+		
+
+
+
+		<div class='div18'>
+			<div class='div12'>
+				<div class='div13'>
+					<span>常见问题</span>
+					<form class='form1'>
+					<input  class='input1' type='button'/>
+					</form>
+					
+				</div>
+				<table class='table2'>
+					<tr>
+						<td class='td1'><a href='#'>如何注册游戏账号？</a>
+						</td>
+					</tr>
+					<tr>
+						<td class='td2'><a href='#'>如何修改游戏密码？</a>
+						</td>
+					</tr>
+					<tr>
+						<td class='td1'><a href='#'>登如密码忘记如何处理？</a>
+						</td>
+					</tr>
+						<tr>
+						<td class='td2'><a href='#'>如何设置保险箱密码？</a>
+						</td>
+					</tr>
+					</tr>
+						<tr>
+						<td class='td1'><a href='#'>如何修改保险箱密码？</a>
+						</td>
+					</tr>
+				</table>	
+			
+			</div>
+			
+			<a href='#'>
+				<img class='img2' src='fcmxt.jpg'/>
+			<a>
+			<a href='#'>
+				<img src='jzjhgc.jpg'/>
+			<a>
+		</div>
+		
+
+			
+		</div>
+		<div class='div26'>
+			<span>
+			站点导航：
+			<a href='#'>新手帮助|
+			<a>
+			<a href='#'>会员中心|
+			<a>
+			<a href='#'>在线充值|
+			<a>
+			<a href='#'>关于我们|
+			<a>
+			<a href='#'>联系我们
+			<a>
+			<br/>
+			适龄提示：本游戏适合18周岁以上的成年用户请在家长的监督下进行游戏
+			<br/>
+			抵制不良游戏
+			拒绝盗版游戏
+			注意自我保护
+			谨防上当受骗
+			适度游戏益脑
+			沉迷游戏伤身
+			合理安排时间
+			享受健康生活
+			<br/>
+			禁止任何利用本平台游戏进行赌博的行为,让我们共同净化游戏环境，一旦发现有违反用户协议的行为。我们将立即封杀帐号!
+			<br/>QQ:542868184 email:542868184@qq.com
+			<br/>Copyright@handhi9.com  all  Right remenber
+			</span>
+		</div>
+	</div>
+ </body>
+</html>
